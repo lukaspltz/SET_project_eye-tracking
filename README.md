@@ -13,3 +13,11 @@ Output: Fixation plots and fixation-based heatmaps overlaid on face stimuli.
 **Augen_AOI.py**  
 Input: Tobii Pro Lab TSV eye-tracking data with AOI annotations.  
 Output: CSV files containing eye vs. face AOI hit counts and gaze-switch statistics by gender and emotion.
+
+**aoi_Treffer_Prozent.py**  
+Input: Tobii Pro Lab TSV eye-tracking data with AOI hit annotations.  
+Output: TSV file with percentage distribution of eye vs. non-eye fixations within the face area for each stimulus.
+
+**erste_Fixation_Auswertung.py**  
+Input: Tobii Pro Lab TSV eye-tracking data with AOI hit annotations.  
+Output: TSV file indicating whether the first fixation per stimulus occurred on the eyes or on the remaining face area.
